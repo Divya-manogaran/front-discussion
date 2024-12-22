@@ -1,0 +1,188 @@
+/* General styling for the discussion list */
+.discussion-list {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the discussion list */
+.discussion-list-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Individual discussion item */
+.discussion-item {
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.discussion-item-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.discussion-item-description {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.discussion-item-actions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Like and Dislike buttons */
+.like-btn, .dislike-btn {
+  background-color: #eee;
+  border: none;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.like-btn:hover, .dislike-btn:hover {
+  background-color: #ddd;
+}
+
+.like-btn {
+  color: #4CAF50;  /* Green for like */
+}
+
+.dislike-btn {
+  color: #f44336;  /* Red for dislike */
+}
+
+/* Reply input and button */
+.reply-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.reply-user-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+}
+
+.send-reply-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.send-reply-btn:hover {
+  background-color: #45a049;
+}
+
+/* Create Discussion button */
+.create-discussion-btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.create-discussion-btn:hover {
+  background-color: #1976d2;
+}
+
+/* Create Discussion form styling */
+.create-discussion-form {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.create-discussion-form input, .create-discussion-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-discussion-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-discussion-form button:hover {
+  background-color: #45a049;
+}
+
+.create-discussion-form .cancel-btn {
+  background-color: #f44336;
+}
+
+.create-discussion-form .cancel-btn:hover {
+  background-color: #e53935;
+}
+
+/* Discussion replies section */
+.discussion-replies {
+  margin-top: 15px;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.discussion-replies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reply-item {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.reply-item small {
+  color: #888;
+}
+
+/* Additional styling for better UI */
+input, textarea {
+  margin-top: 5px;
+}
